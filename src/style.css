@@ -82,7 +82,15 @@ form {
 }
 
 form [type="submit"] {
-    
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 13, 201);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
 }
 
 input {
